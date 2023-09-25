@@ -1,0 +1,333 @@
+import {StyleSheet} from 'react-native';
+const styles = StyleSheet.create({
+  container: {
+    height: '100%',
+    width: '100%',
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#00000095',
+  },
+  modalView: {
+    margin: 20,
+    backgroundColor: 'white',
+    borderRadius: 20,
+    padding: 35,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  profilePicMain: {
+    height: 100,
+    width: 100,
+  },
+  profilePic: {
+    height: 100,
+    width: 100,
+    borderRadius: 100,
+    borderWidth: 3,
+    borderColor: '#A82424',
+  },
+  upperMainInner: {
+    flexDirection: 'row',
+  },
+  upperMain: {
+    marginLeft: '5%',
+    marginRight: '5%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  shortText: {
+    color: '#8E9DBA',
+    fontSize: 12,
+    fontFamily: 'Poppins-Regular',
+  },
+  dollarMain: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  titleText: {
+    fontSize: 22,
+    color: '#000',
+    textAlign: 'center',
+    padding: 8,
+  },
+  subjectText: {
+    color: '#fff',
+    textAlign: 'center',
+    marginLeft: 10,
+    fontSize: 14,
+    fontFamily: 'Poppins-Light',
+  },
+  subjectMain: {
+    height: 30,
+    width: 100,
+    borderRadius: 20,
+    borderWidth: 1,
+    backgroundColor: '#2B2D42',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    marginTop: 20,
+  },
+  renderMain: {
+    padding: 2,
+  },
+  renderInner: {
+    borderRadius: 45,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  flatListStyle: {
+    marginTop: 5,
+    height: 30,
+  },
+  flattext: {
+    padding: 4,
+    color: '#000000',
+    marginTop: 2,
+    fontFamily: 'Poppins-Light',
+  },
+  bottomBtn: {
+    borderRadius: 45,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#2B2D42',
+    margin: 5,
+    paddingLeft: 6,
+    paddingRight: 6,
+    flexDirection: 'row',
+  },
+  bottomBtntext: {
+    paddingLeft: 8,
+    paddingRight: 8,
+    color: '#fff',
+    fontSize: 14,
+    fontFamily: 'Poppins-Light',
+  },
+  bottomMain: {
+    flexDirection: 'row',
+    marginTop: -15,
+  },
+  lowermain: {
+    marginRight: '8%',
+    marginLeft: '8%',
+  },
+  mainBottom: {
+    justifyContent: 'center',
+    marginTop: -50,
+    flex: 1,
+    flexDirection: 'row',
+  },
+  customtabMain: {
+    height: '40%',
+    width: '90%',
+  },
+  activeTabText: {
+    color: '#fff',
+    fontSize: 10,
+  },
+  tabTextStyle: {
+    color: '#2B2D42',
+    fontSize: 10,
+  },
+  activeTabStyle: {
+    backgroundColor: '#2B2D42',
+    fontSize: 10,
+  },
+  mainImage: {
+    borderRadius: 20,
+    height: 150,
+    width: '100%',
+  },
+  firstTabStyle: {
+    borderColor: '#707070',
+    borderWidth: 1,
+    borderRightWidth: 1,
+  },
+  lastTabStyle: {
+    borderColor: '#707070',
+    borderWidth: 1,
+    borderLeftWidth: 1,
+  },
+  tabStyle: {
+    borderColor: '#707070',
+    marginHorizontal: 4,
+    borderRadius: 10,
+  },
+  tabsContainerStyle: {
+    width: '95%',
+    marginTop: '3%',
+  },
+  mainName: {
+    width: '30%',
+    marginLeft: '4%',
+    justifyContent: 'center',
+  },
+  mainNameText: {
+    color: '#022136',
+    fontSize: 16,
+    fontFamily: 'Poppins-Bold',
+  },
+  headerRigthMain: {
+    alignItems: 'flex-end',
+  },
+  marginFromLeft: {
+    marginLeft: '5%',
+  },
+  PtText: {
+    color: '#022136',
+    fontSize: 20,
+    fontFamily: 'Poppins-Bold',
+  },
+  editBtnMain: {
+    marginTop: '10%',
+    borderColor: '#2B2D42',
+    paddingLeft: '8%',
+    paddingRight: '8%',
+    borderWidth: 2,
+    borderRadius: 8,
+  },
+  editBtnText: {
+    fontFamily: 'Poppins-Regular',
+    color: '#2B2D42',
+  },
+  hoursText: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 14,
+    color: '#2B2D42',
+    marginTop: '4%',
+  },
+  hoursRenderText: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 12,
+    color: '#45484B',
+  },
+  bioMain: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    borderWidth: 0,
+    shadowColor: 'gray',
+    shadowOpacity: 5.8,
+    shadowRadius: 20,
+    elevation: 8,
+    padding: 20,
+  },
+  bioMainHead: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 12,
+    color: '#2B2D42',
+    marginTop: '4%',
+    textAlign: 'center',
+  },
+  bioMainText: {
+    fontFamily: 'Poppins-Light',
+    fontSize: 12,
+    color: '#000000',
+    marginTop: '2%',
+  },
+  flatCustom: {
+    marginTop: '2%',
+  },
+  mainInnerFlat: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: '3%',
+    marginRight: '3%',
+  },
+  headerMain: {
+    width: '80%',
+    marginLeft: '4%',
+  },
+  postName: {
+    color: '#2B2D42',
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+  },
+  iconsMain: {
+    flexDirection: 'row',
+    marginTop: '3%',
+  },
+  belowImageMain: {
+    width: '93%',
+  },
+  belowMainText: {
+    color: '#000000',
+    fontSize: 12,
+    fontFamily: 'Poppins-Regular',
+  },
+  hoursMainText: {
+    color: '#45484B',
+    fontSize: 13,
+    fontFamily: 'Poppins-Regular',
+    width: '80%',
+  },
+  lineViewItem: {
+    height: 1,
+    backgroundColor: '#DFDFDF',
+    marginTop: '3%',
+    marginBottom: '3%',
+  },
+  dateText: {
+    color: '#7D7474',
+    fontSize: 9,
+    fontFamily: 'Poppins-Regular',
+  },
+  progressMain: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    borderWidth: 0,
+    shadowColor: 'gray',
+    shadowOpacity: 5.8,
+    shadowRadius: 20,
+    elevation: 8,
+    padding: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  hoursHeading: {
+    marginTop: '2%',
+    color: '#000000',
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+  },
+  customMargin: {
+    margin: 5,
+  },
+  progressRow: {
+    flexDirection: 'row',
+  },
+  createIcon: {
+    marginLeft: '-8%',
+    marginTop: '16%',
+  },
+  buttonn: {
+    borderColor: '#000',
+    borderRadius: 20,
+    borderWidth: 2,
+    backgroundColor: '#202A44',
+    height: 30,
+    width: 150,
+    margin: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  textStyle: {
+    color: '#FFFFFF',
+    fontFamily: 'Poppins-Regular',
+  },
+});
+
+export default styles;
